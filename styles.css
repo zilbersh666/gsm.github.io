@@ -6,7 +6,6 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Стили для заголовка */
 header {
     background-color: #333;
     color: #fff;
@@ -18,7 +17,6 @@ header h1 {
     margin: 0;
 }
 
-/* Стили для навигации */
 nav ul {
     list-style: none;
     padding: 0;
@@ -38,41 +36,12 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Стили для секций */
-section {
+main {
     padding: 2rem;
-    margin: 0 auto;
-    max-width: 800px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-section h2 {
-    margin-top: 0;
-}
-
-/* Стили для подвала */
-footer {
-    background-color: #333;
-    color: #fff;
     text-align: center;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
 
-.login-container {
-    background-color: #fff;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    width: 100%;
-}
-
-.login-button {
+.button {
     display: inline-block;
     background-color: #333;
     color: #fff;
@@ -83,13 +52,21 @@ footer {
     transition: background-color 0.3s ease;
 }
 
-.login-button:hover {
+.button:hover {
     background-color: #555;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 h2 {
     margin-top: 0;
-    margin-bottom: 1rem;
 }
 
 .form-group {
@@ -123,3 +100,12 @@ button:hover {
     background-color: #555;
 }
 
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
